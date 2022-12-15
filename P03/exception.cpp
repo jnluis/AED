@@ -14,7 +14,7 @@
 
 using namespace std;
 
-const double special_value = 1.2345;
+const double special_value =6;
 
 double my_sqrt(double x)
 {
@@ -33,7 +33,7 @@ int main(void)
     double y = special_value;
     for(double x = 6.0;;x -= 1.0)
     {
-#if 0
+#if 1
       y = x; // see what happens when this line is uncommented (#if 1 instead of #if 0)
 #endif
       cout << y << " " << my_sqrt(y) << endl;

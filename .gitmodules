@@ -1,3 +1,6 @@
 [submodule "Project_AED"]
 	path = Project_AED
 	url = git@github.com:dianarrmiranda/Project_AED.git
+[submodule "Project_AED2"]
+	path = Project_AED2
+	url = git@github.com:jnluis/Project_AED2.git
